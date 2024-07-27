@@ -9,9 +9,6 @@
 }
 
 .main-container {
-  width: 100vw;
-  height: 100vh;
-  overflow: scroll;
   background-color: #3c40c6;
 }
 
@@ -48,9 +45,6 @@ header {
   position: relative;
   gap: 50px 50px;
   padding: 50px 25px;
-  width: 100vw;
-  height: 100vh;
-  overflow: scroll;
 }
 
 .cards-box .box {
@@ -95,7 +89,7 @@ header {
 .Aussie-Palette {
   width: 100vw;
   height: 100vh;
-  overflow: scroll;
+  /* overflow: scroll; */
   background-color: white;
 }
 
