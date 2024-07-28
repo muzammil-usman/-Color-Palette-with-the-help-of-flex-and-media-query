@@ -8,8 +8,13 @@
   scroll-behavior: smooth;
 }
 
-.main-container {
+body {
   background-color: #3c40c6;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
 }
 
 header {
@@ -45,6 +50,8 @@ header {
   position: relative;
   gap: 50px 50px;
   padding: 50px 25px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .cards-box .box {
@@ -766,6 +773,36 @@ header {
   color: white;
 }
 
+.pastel {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #ff6b6b;
+  text-transform: uppercase;
+}
+
+.pastel > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
+.megaman {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  background: #48dbfb;
+  text-transform: uppercase;
+}
+
+.megaman > p {
+  position: absolute;
+  top: 75px;
+  right: 5px;
+  color: white;
+}
+
 @media screen and (max-width: 1024px) {
   p {
     display: none;
@@ -794,6 +831,7 @@ header {
     width: 175px;
   }
   .main-container .cards-box .box .img img {
-    width: 200px;
+    width: 100%;
+    height: auto;
   }
 }
